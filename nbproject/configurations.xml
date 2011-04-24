@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <df name="arsketch" root=".">
+      <df name="CMakeFiles">
+        <df name="CMakeTmp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name="CMakeFiles" kind="SOURCE_LOGICAL_FOLDER">
+            <df name="cmTryCompileExec.dir" kind="SOURCE_LOGICAL_FOLDER">
+            </df>
+          </df>
+        </df>
+        <df name="CompilerIdC" kind="SOURCE_LOGICAL_FOLDER">
+          <in>CMakeCCompilerId.c</in>
+        </df>
+        <df name="CompilerIdCXX" kind="SOURCE_LOGICAL_FOLDER">
+          <in>CMakeCXXCompilerId.cpp</in>
+        </df>
+        <df name="OgreApp.dir" kind="SOURCE_LOGICAL_FOLDER">
+          <df name="src" kind="SOURCE_LOGICAL_FOLDER">
+          </df>
+        </df>
+      </df>
+      <df name="dist">
+        <df name="bin" kind="SOURCE_LOGICAL_FOLDER">
+          <in>OgreApp_d</in>
+        </df>
+        <df name="media" kind="SOURCE_LOGICAL_FOLDER">
+        </df>
+      </df>
+      <df name="include" kind="SOURCE_LOGICAL_FOLDER">
+        <in>ARTracker.h</in>
+        <in>BaseApplication.h</in>
+        <in>CameraReader.h</in>
+        <in>CustomTexture.h</in>
+        <in>TutorialApplication.h</in>
+      </df>
+      <df name="src" kind="SOURCE_LOGICAL_FOLDER">
+        <in>ARTracker.cpp</in>
+        <in>BaseApplication.cpp</in>
+        <in>CameraReader.cpp</in>
+        <in>CustomTexture.cpp</in>
+        <in>TutorialApplication.cpp</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>Makefile-arsketch.mk</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile-arsketch.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>$(MAKE) -f Makefile</buildCommand>
+          <cleanCommand>$(MAKE) -f Makefile clean</cleanCommand>
+          <executablePath>./dist/bin/OgreApp_d</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/include/boost/thread</pElem>
+              <pElem>/usr/include/boost/detail</pElem>
+              <pElem>/usr/include/OIS</pElem>
+              <pElem>/usr/include/boost/thread/detail</pElem>
+              <pElem>/usr/include/boost/thread/pthread</pElem>
+              <pElem>/usr/include/boost</pElem>
+              <pElem>/usr/include/boost/config</pElem>
+              <pElem>/usr/include/boost/date_time</pElem>
+              <pElem>/usr/include/boost/mpl/aux_/preprocessed/gcc</pElem>
+              <pElem>/usr/include/boost/mpl</pElem>
+              <pElem>/usr/include/boost/smart_ptr/detail</pElem>
+              <pElem>/usr/include/boost/range/detail</pElem>
+              <pElem>/usr/include/boost/bind</pElem>
+              <pElem>src</pElem>
+              <pElem>/usr/include/boost/iterator/detail</pElem>
+              <pElem>/usr/include/boost/mpl/aux_</pElem>
+              <pElem>/usr/local/include/OGRE</pElem>
+              <pElem>/usr/include/boost/date_time/gregorian</pElem>
+              <pElem>/usr/include/boost/exception</pElem>
+              <pElem>include</pElem>
+              <pElem>/usr/include/boost/type_traits/detail</pElem>
+              <pElem>/usr/include/boost/date_time/posix_time</pElem>
+              <pElem>/usr/include/boost/smart_ptr</pElem>
+              <pElem>/usr/include/boost/range</pElem>
+              <pElem>/usr/include/boost/optional</pElem>
+              <pElem>/usr/include/boost/type_traits</pElem>
+              <pElem>/usr/local/include/OGRE/GLX</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="CMakeFiles/CompilerIdC/CMakeCCompilerId.c" ex="true" tool="0">
+      </item>
+      <item path="CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.cpp" ex="true" tool="1">
+      </item>
+      <item path="src/ARTracker.cpp" ex="true" tool="1">
+      </item>
+      <item path="src/BaseApplication.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/CameraReader.cpp" ex="true" tool="1">
+      </item>
+      <item path="src/CustomTexture.cpp" ex="true" tool="1">
+      </item>
+      <item path="src/TutorialApplication.cpp" ex="false" tool="1">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/include/boost/preprocessor</pElem>
+            <pElem>/usr/include/boost/preprocessor/facilities</pElem>
+            <pElem>/usr/include/ARToolKitPlus/extra</pElem>
+            <pElem>/usr/include/boost/preprocessor/tuple</pElem>
+            <pElem>/usr/include/boost/preprocessor/control</pElem>
+            <pElem>/usr/include/opencv</pElem>
+            <pElem>/usr/include/boost/preprocessor/debug</pElem>
+            <pElem>/usr/include/boost/preprocessor/logical</pElem>
+            <pElem>/usr/include/boost/preprocessor/arithmetic</pElem>
+            <pElem>.</pElem>
+            <pElem>/usr/include/boost/exception/detail</pElem>
+            <pElem>/usr/include/boost/preprocessor/control/detail</pElem>
+            <pElem>/usr/include/boost/mpl/aux_/config</pElem>
+            <pElem>/usr/include/boost/preprocessor/arithmetic/detail</pElem>
+            <pElem>/usr/include/boost/preprocessor/comparison</pElem>
+            <pElem>/usr/include/ARToolKitPlus</pElem>
+            <pElem>/usr/include/boost/preprocessor/config</pElem>
+            <pElem>/usr/include/boost/config/stdlib</pElem>
+            <pElem>/usr/include/boost/preprocessor/repetition/detail</pElem>
+            <pElem>/usr/include/boost/preprocessor/list/detail</pElem>
+            <pElem>/usr/local/include/OGRE/Threading</pElem>
+            <pElem>/usr/include/boost/preprocessor/punctuation</pElem>
+            <pElem>/usr/include/boost/preprocessor/seq</pElem>
+            <pElem>/usr/include/boost/preprocessor/repetition</pElem>
+            <pElem>/usr/include/boost/config/compiler</pElem>
+            <pElem>/usr/include/boost/preprocessor/detail</pElem>
+            <pElem>/usr/include/boost/mpl/aux_/preprocessor</pElem>
+            <pElem>/usr/include/boost/preprocessor/list</pElem>
+            <pElem>/usr/include/boost/utility</pElem>
+            <pElem>/usr/include/boost/iterator</pElem>
+            <pElem>/usr/include/boost/mpl/limits</pElem>
+            <pElem>/usr/include/boost/config/platform</pElem>
+            <pElem>/usr/include/boost/config/no_tr1</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>__USER_LABEL_PREFIX__=</Elem>
+            <Elem>BOOST_ALL_NO_LIB=1</Elem>
+            <Elem>__REGISTER_PREFIX__=</Elem>
+          </preprocessorList>
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

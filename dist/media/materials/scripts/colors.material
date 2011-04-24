@@ -1,0 +1,223 @@
+material Template/Red
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0 0
+        }
+      } 
+    }
+  }
+
+material Template/Blue
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 1
+        }
+      }
+    }
+  }
+
+material Template/White
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 1
+        }
+      }
+    }
+  }
+
+material Template/Yellow
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 0
+        }
+      }
+    }
+  }
+
+material Template/Fuchsia
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0 1
+        }
+      }
+    }
+  }
+
+material Template/Silver
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.75 0.75 0.75
+        }
+      }
+    }
+  }
+
+material Template/Gray
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.5 0.5 0.5
+        }
+      }
+    }
+  }
+
+material Template/Olive
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.5 0.5 0
+        }
+      }
+    }
+  }
+
+material Template/Purple
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.5 0 0.5
+        }
+      }
+    }
+  }
+
+material Template/Maroon
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.5 0 0
+        }
+      }
+    }
+  }
+
+material Template/Aqua
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 1
+        }
+      }
+    }
+  }
+
+material Template/Lime
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 1 0
+        }
+      }
+    }
+  }
+
+material Template/Teal
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0.5 0.5
+        }
+      }
+    }
+  }
+
+material Template/Green
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0.5 0
+        }
+      }
+    }
+  }
+
+material Template/Navy
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 0.5
+        }
+      }
+    }
+  }
+
+material Template/Black
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 0
+        }
+      }
+    }
+  }

@@ -1,0 +1,14 @@
+material Anims/Test
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+//		anim_texture animtext_1.jpg animtext_2.jpg 1
+        }
+      }
+    }
+  }
+

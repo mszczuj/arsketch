@@ -1,0 +1,12 @@
+my code assumes that you have additional camera connected to usb
+dependencies: -lcv -lcvaux -lARToolKitPlus
+last one is taken from here: https://launchpad.net/~rojtberg/+archive/ppa/
+
+compile & run:
+
+1. run cmake-gui - choose build dir, click configure, click generate (choose Makefile)
+2. cd you_build_path
+3. make install
+4. make 
+5. create ogre.cfg in your_build_path/dist/bin/ or use mine from dist/bin
+
