@@ -1,4 +1,6 @@
-my code assumes that you have additional camera connected to usb
+Toy project for AR
+
+The code assumes that you have additional camera connected to usb
 dependencies: -lcv -lcvaux -lARToolKitPlus
 last one is taken from here: https://launchpad.net/~rojtberg/+archive/ppa/
 
